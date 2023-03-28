@@ -1,0 +1,475 @@
+.channelMastheadTable {
+	padding: 4px 0px 0px 0px;
+	background-color: #FFFFFF;
+	font-size: 11px;
+}
+#smallMastheadBottom {
+	display: block;
+}
+a.masthead:link, a.masthead:visited,
+a.masthead:hover, a.masthead:active { 
+	color: #03C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-banner-box {
+	margin-bottom: 15px;
+}
+
+.profileTitleLinks {
+	font-size: 13px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.profileTitleLinks .delimiter {
+	padding: 0px 6px;
+}
+
+.highlightBox {
+	background: #FFC;
+	border: 1px solid #FC3;
+	padding: 9px;
+	margin-bottom: 15px;
+}
+#profile-main-content {
+	float: right;
+	width: 560px;
+}
+#profile-side-content {
+	float: left;
+	width: 300px
+}
+.profile-box {
+	margin-bottom: 15px;
+}
+.profile-box .box-head, .profile-box .box-foot {
+	padding: 2px 5px;
+	zoom: 1; /* gain "hasLayout" for IE/Win, enable filter opacity */
+}
+.profile-box .box-body {
+	padding: 5px;
+	zoom: 1; /* gain "hasLayout" for IE/Win, enable filter opacity */
+}
+.profile-box .box-head[class], .profile-box .box-body[class], .profile-box .box-foot[class] {
+	background: none;
+	position: relative;
+}
+.profile-box .box-fg[class] {
+	position: relative;
+	z-index: 1;
+}
+.profile-box .box-bg[class] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.profile-box .box-head-action {
+	float: right;
+}
+.profile-box .headerTitle, .profile-box .headerTitleRight {
+	color: #fff; /* overrides base */
+}
+.profile-box .headerTitleEdit {
+	font-size: 14px;
+	font-weight: bold;
+}
+.profile-box .box-head a:link, .profile-box .box-head a:visited,
+.profile-box .box-head a:hover, .profile-box .box-head a:active {
+	color: #fff;
+	font-weight: bold;
+}
+
+.profile-box .box-foot .pagingDiv {
+	background: none;
+}
+
+.largeTextArea {
+	width: 400px; height: 300px; 
+	font-size: 12px; 
+}
+
+.headerTitleLeft {
+	vertical-align: center;
+	line-height: 28px;
+}
+.profileAssets {
+	line-height: 16px;
+}
+.sepBox {
+	padding-top: 15px; 
+	padding-bottom: 8px;
+	text-align: left;
+}
+.albumList {
+	display: inline; 
+	list-style-type: none;
+	font-size: 11px;
+}
+.albumNotEnd, .albumEnd {
+	padding: 3px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+}
+.albumArt {
+	width: 40px;
+	height: 40px;
+	border: none;
+}
+
+.actionsTable {
+	margin-top: 3px;
+}
+tr.actionsTable td {
+	padding-right: 0px;
+}
+
+.contestsTableTop {
+	margin: 10px 0px;
+}
+
+tr.showTable td {
+	padding: 8px 5px 3px 8px;
+}
+tr.showTableEnd td {
+	padding: 0px 5px 8px 8px;
+}
+
+.bulletinTable {
+	text-align: center;
+}
+table.bulletinTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+tr.bulletinTable th {
+	padding: 2px;
+}
+tr.bulletinTable td {
+	padding: 2px 5px 3px 5px;
+}
+tr.bulletinTable td img {
+	padding-right: 5px;
+}
+
+.vlog-entry {
+	zoom: 1; /* gain "hasLayout" for IE/Win, fix peekaboo border bug */
+}
+.vlog-entry-video {
+	padding: 5px 0px 0px 5px;
+}
+.vlog-entry-info {
+	width: 253px;
+	height: 255px;
+	padding: 5px; /* also set on box-body */
+}
+.profile-vlogbox-full .vlog-entry-info {
+	width: 568px;
+}
+.profile-box .vlog-entry-info {
+	padding: 0px;
+}
+.profile-box .vlog-entry-info .box-fg {
+	padding: 5px 5px 5px 10px;
+}
+.vlog-entry-stats {
+	padding: 5px; /* also set on box-body */
+}
+.vlogBoxTable {
+	width: 100%;
+	border: none;
+	text-align: left;
+}
+tr.vlogBoxTable td {
+	border-bottom: none;
+	padding-top: 10px;
+}
+#postMainTitles {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#postSubTitles {
+	padding-bottom: 10px;
+}
+
+.emptySetBox {
+	height: 123px;
+}
+.profile-box .emptySetBox {
+	padding: 0px; /* override standard box padding */
+}
+.emptySetBoxNoImg {
+	padding-bottom: 20px;
+}
+.emptySetTitle {
+	margin-left: 25px;
+	font-size: 20px;
+	font-weight:  bold;
+	padding-top: 15px;
+}
+.emptySetContent, .emptySetContentLg {
+	margin-left: 55px;
+	margin-top: 6px;
+}
+.emptySetContentLg {
+	margin-right: 55px;
+}
+.emptyImg {
+	float: right;
+	margin-left: 15px;
+}
+
+.flaggingText {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.largeTitles {
+	font-size: 14px;
+	font-weight: bold;
+}
+input.buttonsCustom {
+	color: #FFF;
+	font-size: 12px;
+	padding: 5px;
+}
+
+table.bulletinTableFull {
+	width: 100%;
+}
+tr.bulletinTableFull th {
+	padding: 2px 0px 2px 5px;
+}
+tr.bulletinTableFull th.lastCol, tr.bulletinTableFull td.lastCol,
+tr.bulletinTableNBFull td.lastCol {
+	width: 65%;
+	border-right: none;
+}
+tr.bulletinTableFull td, tr.bulletinTableNBFull td {
+	padding: 5px;
+}
+
+table.showTableFull {
+	width: 100%;
+}
+tr.showTableFull th {
+	padding: 2px 0px 2px 5px;
+}
+tr.showTableFull td {
+	padding: 5px;
+}
+tr.showTableFullTop td {
+	padding: 5px;
+	border-bottom: none;
+}
+
+table.commentsTableFull {
+	width: 100%;
+}
+tr.commentsTableFull th {
+	padding: 5px 2px;
+}
+tr.commentsTableFull td, tr.commentsTableNBFull td {
+	padding: 5px;
+}
+
+
+
+
+body {
+	background-color: #2c405b;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #6b8ab8;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #6b8ab8;
+}
+
+.profileTitleLinks {
+	font-family: arial,helvetica,sans-serif;
+	color: #6b8ab8;
+}
+
+.highlightBox {
+	font-family: arial,helvetica,sans-serif;
+}
+
+.profile-box {
+	border: 1px solid #6b8ab8;
+	font-family: arial,helvetica,sans-serif;
+}
+.profile-box .box-head, .profile-box .box-foot {
+	background: #6b8ab8;
+	color: #fff;
+	filter: Alpha(opacity=95);
+}
+.profile-box .box-body {
+	background: #2c405b;
+	color: #ffffff;
+	filter: Alpha(opacity=95);
+}
+.profile-box .box-bg[class] {
+	opacity: 0.95;
+}
+.profile-box .box-head .box-bg[class], .profile-box .box-foot .box-bg[class] {
+	background: #6b8ab8;
+}
+.profile-box .box-body .box-bg[class] {
+	background: #2c405b;
+}
+
+.profile-highlightbox .box-body {
+	background: #ebeff0;
+	color: #6b8ab8;
+}
+.profile-highlightbox .box-body .box-bg[class] {
+	background: #ebeff0;
+}
+
+.profile-vlogbox {
+	border-color: #2c405b;
+}
+.profile-vlogbox .box-head, .profile-vlogbox .box-foot {
+	background: #2c405b;
+}
+.profile-vlogbox .box-body {
+	background: #2c405b;
+	color: #ffffff;
+}
+.profile-vlogbox .box-head .box-bg[class], .profile-vlogbox .box-foot .box-bg[class] {
+	background: #2c405b;
+}
+.profile-vlogbox .box-body .box-bg[class] {
+	background: #2c405b;
+}
+
+.label, .standardLabel, .normalLabel,
+.smallLabel, .xsmallLabel, .largeLabel {
+	color: #6b8ab8;
+}
+.profile-label {
+	color: #ebeff0;
+}
+
+.pagingDiv {
+	background: #6b8ab8;
+	color: #6b8ab8;
+}
+.pagerCurrent {
+	background-color: #fff;
+	color: #6b8ab8;
+}
+.pagerNotCurrent {
+	background-color: #ebeff0;
+}
+
+.largeTextArea {
+	font-family: arial,helvetica,sans-serif; 
+}
+
+tr.bulletinTable th {
+	border-bottom: 1px dashed #6b8ab8;
+}
+tr.bulletinTable th.firstCol, tr.bulletinTable td.firstCol {
+	border-right: 1px solid #6b8ab8;
+}
+tr.bulletinTable td {
+	border-top: 1px dashed #6b8ab8;
+}
+
+.vlog-entry-video {
+	background: #2c405b;
+}
+.postTitles {
+	color: #6b8ab8;
+}
+.postText {
+	color: #ffffff;
+}
+
+.flaggingText {
+	color:  #6b8ab8;
+	font-family: arial,helvetica,sans-serif;
+}
+
+input.buttonsCustom {
+	background-color: #6b8ab8;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.vimg, .vimgSm, .vimg130, .vimg120, .vimg110, .vimg100,
+.vimg90, .vimg80, .vimg75, .vimg70, .vimg60, .vimg50 {
+	border-color: #6b8ab8;
+}
+
+.video-thumb-micro, .video-thumb-small, .video-thumb-medium,
+.video-thumb-normal, .video-thumb-big, .video-thumb-large, .video-thumb-jumbo,
+.user-thumb-micro, .user-thumb-small, .user-thumb-medium,
+.user-thumb-partner, .user-thumb-large, .user-thumb-xlarge, .user-thumb-jumbo {
+	border-color: #6b8ab8;
+	background-color: #2c405b;
+}
+
+tr.bulletinTableFull th {
+	border-bottom: 1px solid #6b8ab8;
+	border-right: 1px solid #6b8ab8;
+}
+tr.bulletinTableFull td {
+	border-bottom: 1px dashed #6b8ab8;
+	border-right: 1px solid #6b8ab8;
+}
+tr.bulletinTableNBFull td {
+	border-right: 1px solid #6b8ab8;
+}
+
+tr.showTableFull th {
+	border-bottom: 1px solid #6b8ab8;
+	border-right: 1px solid #6b8ab8;
+}
+tr.showTableFull td {
+	border-bottom: 1px dashed #6b8ab8;
+}
+
+tr.commentsTableFull th {
+	border-bottom: 1px solid #6b8ab8;
+}
+tr.commentsTableFull td {
+	border-bottom: 1px dashed #6b8ab8;
+}
+
+.headerRCBox {
+	font-family: arial,helvetica,sans-serif;
+	background: #6b8ab8;
+	padding: 6px 6px 2px 6px;
+	color: #fff;
+	font-weight: bold;
+}
+.headerBox {
+	background-color: #6b8ab8; 
+	border: 1px solid #6b8ab8;
+	color: #fff;
+	font-family: arial,helvetica,sans-serif;
+	padding: 3px 5px;
+	overflow: hidden;
+}
+
+.vListBox, .vEntry, .vDetailEntry {
+	border-color: #6b8ab8;
+}
+.vListBox {
+	background: #ebeff0;
+}
+.runtime, .title, .vtitle, .desc, .vdesc, .facets, .vfacets {
+	font-family: arial,helvetica,sans-serif;
+}
+.runtime, .facets, .vfacets {
+	color: #ffffff;
+}
+.title, .vtitle, .desc, .vdesc { 
+	color: #6b8ab8;
+}
