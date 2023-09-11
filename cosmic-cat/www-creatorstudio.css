@@ -1,0 +1,62 @@
+/*
+    Happy Halloween. Hail Satan!
+*/
+#s {
+    animation: effect_b;
+    animation-duration: 24s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+    
+#s, #e {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#e {
+    animation: effect_c;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    width: 512px;
+    height: 675px;
+    background: url(//thistlecafe.github.io/cosmic-cat/satan.png);
+    background-size: contain;
+}
+    
+#masthead-container, #footer-container {
+    animation: effect_a;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+    
+@keyframes effect_a {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+    }
+    
+@keyframes effect_b {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    
+@keyframes effect_c {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
